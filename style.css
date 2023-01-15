@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: #F6F6F6;
+  
+}
+
+.container{
+  position: relative;
+
+}
+
+.bloco {
+    position: absolute;
+    width: 378px;
+    margin-top: 150px;
+    margin-left: 364px;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-size: 30px;/*tamanho da linhas*/
+    line-height: 56px;/*espaco entre as linhas*/
+}
+
+.bloco-2 {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 364px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+
+img {
+    order: 0;
+    position: absolute;
+    width: 450px;
+    margin-top: 120px;
+    margin-left: 850px;
+  
+    
+}
+
+span{
+    color: #22D4FD;
+    
+}
+
+
+#button1{
+    display: flex;
+    background-color: #E6E159;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 362px;
+    top: 525px;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px  #22D4FD;
+    border-radius: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+    
+}
+
+#button2{
+   
+    background-color: #E6E159;
+    display: flex;
+    background-color: #E6E159;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    margin-left: 250px;
+
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 362px;
+    top: 525px;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px  #22D4FD;
+    border-radius: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+
+}
+
+
+
